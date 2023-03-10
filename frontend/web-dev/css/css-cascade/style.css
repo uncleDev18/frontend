@@ -1,0 +1,40 @@
+.container
+{
+    border: 1px solid pink;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+h1
+{
+    color: blueviolet;
+}
+
+h2
+{
+    color: yellow;
+}
+
+.tag h2
+{
+    color: red;
+}
+
+/* the last style is will be valid */
+.tag h2
+{
+    color: blue;
+}
+
+/* class is more specific than tags */
+.class .title-using-class
+{
+    color: green;
+}
+
+/* id is more specific than tags */
+.id #title-using-id
+{
+    color: red;
+}

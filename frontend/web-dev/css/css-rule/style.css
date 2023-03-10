@@ -1,0 +1,72 @@
+h2
+{
+    color: blueviolet;
+}
+
+h1
+{
+    color: limegreen;
+    font-size: 60px;
+    font-weight: normal;
+    text-decoration: underline;
+    text-transform: uppercase;
+    border: 3px solid pink;
+    text-align: center;
+}
+
+.change-color
+{
+    text-decoration: none;
+    text-transform: lowercase;
+    color: red;
+    border: 1px dashed black;
+    border-radius: 10px;
+}
+
+p
+{
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+span
+{
+    color: yellow;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+div
+{
+    color: blue;
+    border: 1px solid red;
+}
+
+div h3
+{
+    border: 1px solid blue;
+}
+
+ul
+{
+    list-style: square;
+    list-style-position: inside;
+}
+
+ul li
+{
+    color: brown
+}
+
+ol
+{
+    list-style: upper-roman;
+    list-style-position: inside;
+}
+
+ol li
+{
+    color: brown
+}

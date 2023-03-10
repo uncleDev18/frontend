@@ -1,0 +1,47 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    margin: 10px;
+}
+
+.my-page-header
+{
+    grid-area: header;
+    background-color: green;
+    height: 50px;
+}
+
+.my-page-sidebar
+{
+    grid-area: sidebar;
+    background-color: blue;
+}
+
+.my-page-body
+{
+    grid-area: body;
+    background-color: yellow;
+    height: 300px;
+}
+
+.my-page-footer
+{
+    grid-area: footer;
+    background-color: red;
+    height: 100px;
+}
+
+.my-page
+{
+    display: grid;
+    grid-template-areas: 
+        "header header  header sidebar"
+        "body body . sidebar"
+        "footer footer footer footer";
+}
